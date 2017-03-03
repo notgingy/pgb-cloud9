@@ -1,0 +1,38 @@
+
+
+<h1 align="center"> JavaScript by Taylor </h1>
+
+Put the stuff in the textarea into the div <br> <br>
+
+<textarea id="myArea01">enter stuff here </textarea> <br> <br>
+
+<input type="button" value="click me" onclick= "{
+
+document.getElementById('myDiv01').innerHTML=
+    document.getElementById('myArea01').value
+
+}"><br><br>
+
+<div id="myDiv01" > Output here</div>
+
+<br><br><br>
+
+<input type="button" value="on" id="mybutton01" onclick="{
+
+//alert(document.getElementById('mybutton01').value)
+      
+    if (document.getElementById('mybutton01').value=='on'){
+    document.getElementById('mybutton01').value='off'
+     
+    } else { document.getElementById('mybutton01').value='on'
+    
+}
+}"/>
+
+
+<br><br><br>
+
+<input type="button" value="Back" style="color:red; background-color: black" onclick="location='https://c9-new-2017-notgingy.c9users.io/'" </input>
+
+<b><-- click to go back to index</b>
+

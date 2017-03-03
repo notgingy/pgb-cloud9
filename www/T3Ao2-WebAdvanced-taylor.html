@@ -1,0 +1,117 @@
+<h1 align="center"> Web Advanced by Taylor </h1><br>
+
+<input type="button" value="to google" onclick="location='https://www.google.ca'" </input><br>
+
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/ZGl8vrceu1E" 
+    frameborder="0" allowfullscreen></iframe><br>
+
+<b> this is bold</b>
+<b style="background-color: red; color:yellow; 3px; border-style: grove ; border-width: 50px;"> ihghyu </b><br>
+
+Enter x <input type="text" id="myX" value="3"> 
+
+<input type="button" value="My computer code" onclick="{
+
+    x = document.getElementById('myX').value
+    myTemp=''
+    
+    if (x==3){
+        myTemp='x is 3'
+    }   else if (x < 3) {
+           myTemp='x is less than 3'
+       }    else if(x > 3){
+             myTemp='x is greater than 3'
+           }    else if(x < 3 ){
+                 myTemp='x is not less than 3'
+                }    else if(x > 3){
+                     myTemp='x is greater than 3'
+                    }
+              
+          
+          
+          
+          
+          
+          
+          
+
+    document.getElementById('myOut').innerHTML = myTemp
+ }"><br>
+ 
+ <div id="myOut">Output goes here</div>
+ <br><br><br><br><br><br><br><br><br><br><br><br>
+ 
+ 
+ 
+ 
+ 
+Enter y: <input type=text id="myY" value="2"><br>
+Enter z: <input type=text id="myZ" value="5"><br>
+
+<input type=button value="Complex if" onclick="{
+   document.getElementById('myOut').innerHTML = ''
+   y = document.getElementById('myY').value
+   z = document.getElementById('myZ').value
+
+
+
+   if ((y == 2) && (z == 5)){
+      document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y is 2 and z is 5 <br>'
+   }
+
+   if ((y > 2) && (z < 5)){
+      document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y more than 2 and z is less than 5 <br>'
+   }
+   
+   if ((y > 2) || (z < 5)){
+      document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y more than 2 or z is less than 5 <br>'
+   }
+   
+   if ((y == 2) && (z != 5)){
+      document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y is 2 and z is not 5 <br>'
+   }
+   
+   if ((y != 2) && (z == 5)){
+      document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y is not 2 and z is 5 <br>'
+   }
+   
+   if ((y == 2) || (y == 5)){
+      document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y is 2 or z is 5 <br>'
+   }
+   
+   if ((y >= 2) && (z == 5)){
+      document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y is more or is 2 and z is 5 <br>'
+   }
+   
+   if ((y == 2) && (z <= 5)){
+     document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y is 2 and z is more or is 5 <br>'
+   }
+    
+   if ((y != 2) && (z != 5)){
+     document.getElementById('myOut').innerHTML += y + 
+          ', ' + z + ' y is not 2 and z is not 5 <br>'
+   }
+
+
+      
+                            
+        
+}">
+
+<p> try "2 and 5", "1 and 5", "2 and 6", "1 and 8", "6 and 4" </p>
+
+<br><br><br>
+
+<input type="button" value="Back" style="color:red; background-color: black" onclick="location='https://c9-new-2017-notgingy.c9users.io/'" </input>
+
+<b><-- click to go back to index </b>
+

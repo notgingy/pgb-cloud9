@@ -1,0 +1,70 @@
+<h1 align="center"> If Loops by Taylor </h1>
+
+Put the stuff in the textarea into the div <br> <br>
+
+<textarea id="myArea01"> 7 </textarea> <br> <br>
+
+<input type="button" value="click me" onclick= "{
+
+document.getElementById('myDiv01').innerHTML=
+    document.getElementById('myArea01').value
+
+}"><br><br>
+
+
+
+
+<br><br> <br>
+
+<input type="button" value="If Loop" onclick= "{
+    
+    x = document.getElementById('myDiv01').innerHTML
+     myTemp = parseInt(document.getElementById('myArea01').value)
+ 
+ 
+ 
+    x = ''
+    for (myLoop=1; myLoop<=100; myLoop++){ 
+
+    x += 
+     ' by adding ' + myTemp + ' + ' + myTemp + ', '
+
+    myTemp += myTemp
+
+   x += 
+        myLoop + '=loop, the total=  '+ myTemp + '<br>'
+
+    }
+
+}">
+<br><br> <br>
+
+<input type="button" value="My computer code" onclick="{
+
+    x = document.getElementById('myX').value
+    myTemp=''
+    
+    if (x==3){
+        myTemp='x is 3'
+    }   else if (x < 3) {
+           myTemp='x is less than 3'
+       }    else if(x > 3){
+             myTemp='x is greater than 3'
+           }
+          
+          
+          document.getElementById('myOut').innerHTML = myTemp
+ }"><br>
+
+
+
+<div id="myDiv01" > Output here</div>
+
+
+
+<br><br><br>
+
+<input type="button" value="Back" style="color:red; background-color: black" onclick="location='https://c9-new-2017-notgingy.c9users.io/'" </input>
+
+<b><-- click to go back to index</b>
+

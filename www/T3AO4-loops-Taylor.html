@@ -1,0 +1,73 @@
+
+<h1 align="center"> Loops By Taylor </h1>
+ 
+ 
+ <textarea id="myArea01"> 7 </textarea> <br> <br> <br>
+
+
+
+<input type="button" value="click me" onclick= "{
+
+document.getElementById('myDiv01').innerHTML=
+    document.getElementById('myArea01').value
+
+}">
+
+<br><br> <br>
+
+<input type="button" value="Taylor Loop" onclick= "{
+    myTemp = parseInt(document.getElementById('myArea01').value)
+    document.getElementById('myDiv01').innerHTML = ''
+    for (myLoop=1; myLoop<=100; myLoop++){ 
+
+    document.getElementById('myDiv01').innerHTML += 
+     ' by adding ' + myTemp + ' + ' + myTemp + ', '
+
+    myTemp += myTemp
+
+    document.getElementById('myDiv01').innerHTML += 
+        myLoop + '=loop, the total=  '+ myTemp + '<br>'
+
+    }
+
+}">
+
+
+<br><br><br>
+
+<input type="button" value="For Loop" onclick="{
+     
+    myTemp = parseInt(document.getElementById('myArea01').value)
+       document.getElementById('myDiv01').innerHTML = ''
+    for (myLoop=1; myLoop<=100; myLoop++){ 
+
+    
+
+    document.getElementById('myDiv01').innerHTML += 
+     ' by adding ' + myTemp + ' + ' + myTemp + ', '
+
+     myTemp += myTemp +1
+
+    document.getElementById('myDiv01').innerHTML += 
+     myLoop + '=loop, the total= '+ myTemp +'<br>'
+    }
+
+}"   > <br><br> 
+
+<div id="myDiv01"> output here </div>
+
+
+
+
+
+<br><br><br>
+
+<input type="button" value="Back" style="color:red; background-color: black" onclick="location='https://c9-new-2017-notgingy.c9users.io/'" </input>
+
+<b><-- click to go back to index</b>
+
+
+
+
+
+
